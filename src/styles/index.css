@@ -1,0 +1,50 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sm-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5em;
+    padding-top: 1em;
+}
+
+#discography {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+}
+
+#text {
+    padding-top: 5em;
+}
+
+#logo {
+    padding-top: 2em;
+}
+
+@media(max-width: 425px){
+    
+    
+    #discography {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+    }
+    
+    #text {
+        padding-top: 3em;
+    }
+    
+    #logo {
+        padding-top: 1em;
+    }
+}
+
+
+
